@@ -1,3 +1,7 @@
+
+output = "<h1>Halo, ini adalah website saya!</h1>"
+with open("index.html", "w", encoding="utf-8") as file:
+    file.write(output)
 <!DOCTYPE html>
 <html lang="id">
 <head>
